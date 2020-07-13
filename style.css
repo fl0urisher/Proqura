@@ -1,0 +1,282 @@
+body{
+  font-family: verdana;
+}
+#content{
+  display: flex;
+  flex-direction: column;
+}
+
+#first-box{
+  margin-top: bottom;
+  padding: 0;
+  width: 1160px;
+  height: 769px;
+  
+  background: #4031B7;
+  color: #B6D2E3;
+}
+
+#details{
+ display: flex;
+  position: absolute;
+  right: 0%;
+  top: 1%;
+
+padding: 10px 5px;
+}
+.det{
+  margin: 10px 5px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #B6D2E3;
+}
+
+.det::after{
+  content: url(/img/assets/tel.png);
+}
+
+nav ul{
+  margin: 70px 20px 70px 20px;
+  display: flex;
+  list-style-type: none;
+}
+
+ul li{
+  margin: 10px 25px;
+  align-self: center;
+}
+li:nth-child(1) {
+margin-right: 70px; 
+}
+
+#login{
+  display: flex;
+  position: absolute;
+  right: 10%;
+  top: 12%;
+  padding: 10px 5px;
+
+}
+.log{
+  margin: 10px 30px;
+  color: #B6D2E3;
+
+}
+
+.signUp{
+  border: 1px solid #B6D2E3;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0;
+}
+.signUp::after{
+  padding: 0 5px;
+  content: url(img/assets/arrow-forward.png);
+}
+#picture-box{
+  position: absolute;
+  width: 488px;
+  height: 372px;
+  left: 917px;
+  top: 241px;
+  background: rgba(48, 32, 175, 0.5);
+}
+
+#toSignUp{
+  position: absolute;
+  width: 190px;
+  height: 217px;
+  right: 0px;
+  top: 0px;
+  background: linear-gradient(90deg, #6A11CB -0.25%, #3C53EB 64.09%, #6A79DD 95.78%);
+}
+#image{
+
+  position: absolute;
+  width: 488px;
+  height: 372px;
+  left: 952px;
+  top: 217px;
+  background: url(img/assets/lady.jpg);
+}
+
+#left-content{
+  margin-left: 90px;
+}
+
+#left-top{
+  font-family: Times New Roman;
+  color: white;
+  width: 608px;
+  height: 138px;
+  font-size: 70px;
+  line-height: 107.21%;
+  margin-bottom: 48px;
+}
+
+#proc{
+ color: cyan;
+}
+
+#left-text{
+  line-height: 30px; 
+  font-size: 18px;
+}
+#booking{
+  margin-top: 30px;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 14px;
+}
+#book{
+  margin: 0 70px 0 0;
+  background: #60CBBE;
+  border-radius: 30px;
+  padding: 15px;
+  font-weight: bold;
+  box-sizing: content-box;
+}
+#question::after{
+  padding: 0 10px;
+  content: url(img/assets/arrow-forward.png);
+  color: #FFFFFF;
+}
+
+#second-box{
+  background: #FFFFFF;
+}
+#second-box #main{
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 50px;
+}
+#second-box #submain{
+  font-family: verdana;
+  text-align: center;
+  color: #B2B2B2;
+}
+
+#hiringsols{
+  display: flex;
+  justify-content: space-around;
+  font-size: 26px;
+  font-family: "Times New Roman";
+  margin-bottom: 0;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+
+}
+.border{
+  height: 180px;
+  width: 180px;
+  background: #4031B7;
+  border-radius: 100%;
+  box-sizing: border-box;
+
+}
+
+.border img{
+  padding: 50px;
+
+}
+
+#hiringfoot{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.foot{
+  font-size: 12px;
+  margin: 0 auto 200px auto;
+  color: #828282;
+}
+#third-box{
+  background: #FBFAF9;
+}
+
+#third-box #main{
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 50px;
+}
+#third-box #submain{
+  font-family: verdana;
+  text-align: center;
+  color: #B2B2B2;
+}
+
+#procure{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.prohead{
+  font-size: 26px;
+  font-family: "Times New Roman";
+}
+
+.profoot{
+  font-size: 12px;
+  color: #828282;
+  margin-bottom: 200px;
+}
+#fourth-box{
+
+}
+
+
+#fourth-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+#fourth-left{
+  display: flex;
+  flex-direction: column;
+  margin: 80px 70px;
+}
+
+#fourth-right{
+  width: 200px;
+  height: 500px;
+  background: linear-gradient(90deg, #6A11CB -0.25%, #3C53EB 64.09%, #6A79DD 95.78%)
+}
+
+#fourth-left #main{
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 50px;
+  text-align: left;
+  margin-bottom: 0: 
+}
+#fourth-left #submain{
+  margin-top: 0;
+  font-family: verdana;
+  text-align: center;
+  color: #B2B2B2;
+  text-align: left;
+}
+
+#fourth-sub{
+  display: flex;
+}
+
+#fourth-sub img{
+  display: inline;
+}
+
+.fourth-head{
+  font-size: 22px;
+  font-family: "Times New Roman";
+  margin: 0 0;
+}
+
+#fifth-box{
+  background: #FBFAF9;
+}
